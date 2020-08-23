@@ -9,12 +9,15 @@ or
 ```diff
 + print variable
 ```
-This prints the text inside the quotation marks or the variable there.\
-**Common Mistake:** Do not put quotation marks when its a variable  or vice versa, the compiler will not understand but will not give an error for the first one but will give an error for the other one saying: "variable not definied in current scope. Hint: Have you put quotation marks around text"
+This prints the text inside the quotation marks or the variable there.
+### Common Mistakes
+**Common Mistake 1:** 
+Do not put quotation marks when its a variable  or vice versa, the compiler will not understand but will not give an error for the first one but will give an 
+error for the other one saying: "variable not definied in current scope. Hint: Have you put quotation marks around text"
 
 
 ### Examples
-**Example:**
+**Example 1:**
 ```diff
 + print "Hello World" 
 ! Output: Hello World
@@ -45,11 +48,13 @@ or
 + print variable << variable
 ```
 or More by puttting "<<"
-prints more than one thing or variables or text the supported printable variables are all including bool etc.\
-**Common Mistake:** Make sure your signs are the right way: << not >> or else your compiler will give the error: "operators not recognized Hint: have you put the operaters like this << ?
+prints more than one thing or variables or text the supported printable variables are all including bool etc.
+### Common Mistake
+**Common Mistake:** Make sure your signs are the right way: << not >> or else your compiler will give the error: "operators not recognized Hint: have you put the 
+operaters like this << ?
 
 ### Examples
-**Example:**
+**Example 1:**
 ```diff
 + print "Hello " << "World"
 ! Output: Hello World
@@ -91,5 +96,52 @@ or
 ```diff
 + input variable
 ```
-prints the text in quotation marks or if there is a variable it weill get input and put it on the variable
+prints the text in quotation marks or if there is a variable it weill get input and put it on the variable.
+### Common Mistake
+**Common Mistake 1:**  Do not put quotation marks when its a variable or vice versa, the compiler will not understand but will not give an error for the first 
+one 
+but will give an error for the other one saying: "variable not definied in current scope. Hint: Have you put quotation marks around text"
+**Common Mistake 2:** Do not expect any input getting if you only put text after the input, this won't provoke an error but the compiler will just print the text 
+and wait for input then do nothing with the taken input.
+### Examples
+**Example 1:**
+```diff
++ input "Hello World" 
+! Output: Hello World 
+- Note: This won't do anything with the taken input it will just wait for a responce and then continue running the code after it.
+```
+**Example 2:**
+```diff
++ string variable
++ input variable 
+! Output: (Does nothing just gets input then the program finishes)
+```
+**Example 3:**
+```diff
++ string variable
++ input variable
++ print variable
+! Output: (Outputs whatever the user inputed)
+```
 ## Input to two or more variables and print out text
+```diff
++ input "" << ""
+```
+or
+```diff
++ input variable << ""
+```
+or
+```diff
++ input "" << variable
+```
+or
+```diff
++ input variable << variable
+```
+or More by puttting "<<"
+prints out stuff in quotations and inputs the input to the variable there cant be more than one variable next to each other text must separate it
+### Common Mistake
+**Common Mistake:** Make sure your signs are the right way: << not >> or else your compiler will give the error: "operators not recognized Hint: have you put the 
+operaters like this << ?
+

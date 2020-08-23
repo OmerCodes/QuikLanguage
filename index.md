@@ -27,8 +27,49 @@ This prints the text inside the quotation marks or the variable there.\
 
 ## Print Several Variables or Text
 
-print "" << "" prints more than one thing or variables or text the supported printable variables are all including bool etc.\
+```diff
++ print "" << ""
+```
+or
+```diff
++ print variable << ""
+```
+or
+```diff
++ print "" << variable
+```
+or
+```diff
++ print variable << variable
+```
+or More by puttting "<<"
+prints more than one thing or variables or text the supported printable variables are all including bool etc.\
 **Common Mistake:** Make sure your signs are the right way: << not >> or else your compiler will give the error: "operators not recognized Hint: have you put the operaters like this << ?
+**Example:**
+```diff
++ print "Hello " << "World"
+! Output: Hello World
+```
+**Example 2:**
+```diff
++ string variable = "Hello "
++ print variable << "World"
+! Output: Hello World
+```
+
+**Example 3:**
+```diff
++ string variable = "World"
++ print "Hello " << variable
+! Output: Hello World
+```
+**Example 4:**
+```diff
++ string variable = "Hello "
++ string variable2 = "World"
++ print variable << variable2
+! Output: Hello World
+```
 
 # Input
 ## Input to one variable or just make a text output

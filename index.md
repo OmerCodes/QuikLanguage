@@ -2,8 +2,21 @@
 
 ## Printing
 # Print One Variable or Text
-print "" This prints the text inside the quotation marks or the variable there.\
+```diff
++ print "" 
+or
++ print variable
+```
+This prints the text inside the quotation marks or the variable there.\
 **Common Mistake:** Do not put quotation marks when its a variable  or vice versa, the compiler will not understand but will not give an error for the first one but will give an error for the other one saying: "variable not definied in current scope. Hint: Have you put quotation marks around text"
 # Print Several Variables or Text
 print "" << "" prints more than one thing or variables or text the supported printable variables are all including bool etc.\
 **Common Mistake:** Make sure your signs are the right way: << not >> or else your compiler will give the error: "operators not recognized Hint: have you put the operaters like this << ?
+
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```

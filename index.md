@@ -12,6 +12,8 @@ or
 This prints the text inside the quotation marks or the variable there.\
 **Common Mistake:** Do not put quotation marks when its a variable  or vice versa, the compiler will not understand but will not give an error for the first one but will give an error for the other one saying: "variable not definied in current scope. Hint: Have you put quotation marks around text"
 
+
+### Examples
 **Example:**
 ```diff
 + print "Hello World" 
@@ -45,6 +47,8 @@ or
 or More by puttting "<<"
 prints more than one thing or variables or text the supported printable variables are all including bool etc.\
 **Common Mistake:** Make sure your signs are the right way: << not >> or else your compiler will give the error: "operators not recognized Hint: have you put the operaters like this << ?
+
+### Examples
 **Example:**
 ```diff
 + print "Hello " << "World"
@@ -68,6 +72,13 @@ prints more than one thing or variables or text the supported printable variable
 + string variable = "Hello "
 + string variable2 = "World"
 + print variable << variable2
+! Output: Hello World
+```
+**Example 5:**
+```diff
++ string variable = "Hello "
++ string variable2 = "Wor"
++ print variable << variable2 << "ld"
 ! Output: Hello World
 ```
 

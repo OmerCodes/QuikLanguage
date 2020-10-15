@@ -1,5 +1,5 @@
 # Welcome to the Quik language documentation!
-
+If you are on the website if you would like a better coloring and text presentation please head over to here: https://github.com/OmerCodes/QuikLanguage/blob/gh-pages/index.md
 # Printing
 ## Print One Variable or Text
 ```diff

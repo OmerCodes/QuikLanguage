@@ -1,5 +1,6 @@
 # Welcome to the Quik language documentation!
 If you are on the website if you would like a better coloring and text presentation please head over to here: https://github.com/OmerCodes/QuikLanguage/blob/gh-pages/index.md
+Note: Please ignore the arithmetic operators at the start those are there to highlight the lines of code in color, sadly github has no other option to color and this was the path I took.
 # Printing
 ## Print One Variable or Text
 ```diff

@@ -146,3 +146,12 @@ prints out stuff in quotations and inputs the input to the variable there cant b
 **Common Mistake:** Make sure your signs are the right way: << not >> or else your compiler will give the error: "operators not recognized Hint: have you put the 
 operaters like this << ?
 
+# Variables
+## Types of variables and introduction
+Variables in Quik store data in many different ways, here are the many ways you can store a variable:
+int (integer) = whole numbers/integers
+string = strings of text
+char (character) = 1 character
+bool (boolean) = true or false/1 or 0
+
+
